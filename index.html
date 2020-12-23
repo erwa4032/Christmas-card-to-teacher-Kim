@@ -21,11 +21,30 @@
 <body>
 
 
+    <div class="container" style="text-align: center;">
+        <button type="button" style="  margin-top: 200px;" class="btn btn-success" data-toggle="collapse"
+            data-target="#open" id="Btn">Click To
+            Open</button>
+        <div id="open" class="collapse">
+            <h1 style="color:rgb(200, 0, 0)">Merry Christmas!</h1>
+            <br>
+            <h4>To teacher Kim</h4>
+            <h4>From Eric Wan(class on Wednesday)</h4>
+        </div>
+    </div>
+
+    <script>
+        $("#Btn").click(function () {
+            $("#Btn").hide();
+        });
+    </script>
+
 </body>
 <style>
     body {
         background: lightblue;
     }
 </style>
+
 
 </html>
